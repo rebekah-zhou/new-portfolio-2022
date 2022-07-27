@@ -36,6 +36,14 @@
 
 .project-container {
   display: flex;
+  justify-content: center;
+}
+
+.project-card, .project-img {
+  width: 40vw;
+  height: 200px;
+  border: 1px solid;
+  margin: 10px;
 }
 
 

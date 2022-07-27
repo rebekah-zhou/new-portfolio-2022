@@ -7,7 +7,8 @@
             "website": "https://jpena925.github.io/coffee-tycoon-frontend/",
             "demo": null,
             "languages": ["Ruby", "JavaScript"],
-            "technologies": ["React.js", "Sinatra"]
+            "technologies": ["React.js", "Sinatra"],
+            "image": "/FrontPageOfMathTestGen.png"
         },
         {
             "projectId": 2,

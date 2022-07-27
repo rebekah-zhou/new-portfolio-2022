@@ -12,8 +12,6 @@ function Projects() {
     })
   }, [])
 
-  console.log(projects)
-
   if (projects.length < 1) {
     return (
       <h1></h1>
@@ -24,16 +22,16 @@ function Projects() {
           <h1>Projects</h1>
           <div id='projects-container'>
             <div className="project-container">
-              <ProjectCard name={projects[0].name}/>
-              <ProjectImg />
+              <ProjectCard project={projects[0]}/>
+              <ProjectImg project={projects[0]}/>
             </div>
             <div className="project-container">
-              <ProjectImg />
-              <ProjectCard name={projects[1].name}/>
+              <ProjectImg project={projects[1]}/>
+              <ProjectCard project={projects[1]}/>
             </div>
             <div className="project-container">
-              <ProjectCard name={projects[2].name}/>
-              <ProjectImg />
+              <ProjectCard project={projects[2]}/>
+              <ProjectImg project={projects[2]}/>
             </div>
           </div>
       </div>
