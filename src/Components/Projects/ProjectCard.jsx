@@ -1,9 +1,14 @@
 import React from 'react'
 
-function ProjectCard({ name }) {
+
+function ProjectCard({ project }) {
+  const { name, github, website, demo } = project
   return (
-    <div>
-        <h2>{name}</h2>
+    <div className='project-card'>
+      <h2>{name}</h2>
+      <a href={github}>
+        <img src='/githubLogo.png' alt='github icon'/>
+      </a>
     </div>
   )
 }
