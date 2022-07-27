@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import ProjectCard from './ProjectCard'
+import ProjectCardLeft from './ProjectCardLeft'
+import ProjectCardRight from './ProjectCardRight'
 import ProjectImg from './ProjectImg'
 
 function Projects() {
@@ -22,16 +23,16 @@ function Projects() {
           <h1>Projects</h1>
           <div id='projects-container'>
             <div className="project-container">
-              <ProjectCard project={projects[0]}/>
-              <ProjectImg project={projects[0]}/>
+              <ProjectCardLeft project={projects[2]}/>
+              <ProjectImg project={projects[2]}/>
             </div>
             <div className="project-container">
               <ProjectImg project={projects[1]}/>
-              <ProjectCard project={projects[1]}/>
+              <ProjectCardRight project={projects[1]}/>
             </div>
             <div className="project-container">
-              <ProjectCard project={projects[2]}/>
-              <ProjectImg project={projects[2]}/>
+              <ProjectCardLeft project={projects[0]}/>
+              <ProjectImg project={projects[0]}/>
             </div>
           </div>
       </div>

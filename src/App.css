@@ -1,12 +1,74 @@
+:root {
+  --primary-color: #F26052;
+  --second-color: #77B9F2;
+  --white-color: #FAF9F6;
+  --black-color: #422200;
+}
+
 .App {
   text-align: center;
+  color: var(--black-color);
+  background-color: var(--white-color);
 }
+
+.row {
+  display: flex;
+  flex-direction: row 
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: Playfair Display, serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+ 
+h1 {
+  padding: 30px 0 8px;
+  position: relative;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  left: 7%;
+  bottom: 16px;
+  width: 150px;
+  height: 14px;
+  transform: skew(-12deg) translateX(-50%);
+  background: rgba(238,111,87,0.5);
+  z-index: -1;
+}
+    
 
 /* ------------Home------------------- */
 
 #home {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#home img {
+  height: 70vh;
+  width: auto;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+#home-list ol{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
 }
 
 /* ------------About------------------- */
@@ -44,6 +106,23 @@
   height: 200px;
   border: 1px solid;
   margin: 10px;
+}
+
+.project-card-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
+.project-card-title a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
 }
 
 
