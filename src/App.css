@@ -1,14 +1,83 @@
+:root {
+  --primary-color: #F26052;
+  --primary-color-light: rgba(242,96,82,0.5);
+  --second-color: #77B9F2;
+  --second-color-light: rgba(119, 185, 242, 0.5);
+  --white-color: #FAF9F6;
+  --black-color: #422200;
+}
+
 .App {
   text-align: center;
+  color: var(--black-color);
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* background-color: var(--white-color); */
 }
+
+.row {
+  display: flex;
+  flex-direction: row 
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: Playfair Display, serif;
+  font-weight: 700;
+  font-size: 48px;
+
+  position: relative;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  /* left: 7%; */
+  bottom: 5px;
+  width: 200px;
+  height: 14px;
+  transform: skew(-15deg) translateX(-50%);
+  background: var(--primary-color-light);
+  z-index: -1;
+}
+    
 
 /* ------------Home------------------- */
 
 #home {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
+#home img {
+  height: 70vh;
+  width: auto;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+#home-list ol{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+#name {
+  font-size: calc(48px + 1.5vh);
+  font-family: 'WindSong', cursive;
+  margin: 10px;
+}
 /* ------------About------------------- */
 
 #about {
@@ -23,8 +92,12 @@
 }
 
 .about-p {
-  width: 30vw;
+  width: 25vw;
+  height: fit-content;
   text-align: left;
+  padding: 0 10px;
+  background-color: var(--second-color-light);
+  border-radius: 20px;
 }
 
 /* ------------Projects------------------- */
@@ -44,6 +117,23 @@
   height: 200px;
   border: 1px solid;
   margin: 10px;
+}
+
+.project-card-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
+.project-card-title a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
 }
 
 

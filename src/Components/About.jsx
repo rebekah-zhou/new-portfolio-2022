@@ -11,7 +11,7 @@ function About() {
                 <p>During my time with Flatiron School, I went through cycles of learning a new programming language/technology within two weeks, being tested on it, and creating a web app using it.</p>
             </div>
             <div className="about-p">
-                <h2>I've done this before.</h2>
+                <h2>I can navigate the unknown.</h2>
                 <p>When I became a public high school teacher, I didn't have the same background as my fellow teachers - no teaching credential, no student teacher experience.
                     Despite this non-traditional background, I succeeded in the classroom. While attending graduate school to attain my teaching credential, I developed relationships with my students,
                     generated my own exams, and collaborated with my math team to push student outcomes. </p>
