@@ -4,7 +4,7 @@ function Home() {
   return (
     <div id="home">
       <div className='column'>
-        <h1>Rebekah Zhou</h1>
+          <p id='name'>Rebekah Zhou</p>
         <p>[ri-bek-uh] <span>noun</span></p>
         <div id='home-list'>
           <span>Definition of <em>Rebekah Zhou</em></span>
