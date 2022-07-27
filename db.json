@@ -1,0 +1,31 @@
+{
+    "projects": [
+        {
+            "projectId": 1,
+            "name": "Coffee Tycoon",
+            "github": ["https://github.com/jpena925/coffee-tycoon-frontend", "https://github.com/jpena925/coffee-tycoon-backend"],
+            "website": "https://jpena925.github.io/coffee-tycoon-frontend/",
+            "demo": null,
+            "languages": ["Ruby", "JavaScript"],
+            "technologies": ["React.js", "Sinatra"]
+        },
+        {
+            "projectId": 2,
+            "name": "Twiddle Wakka",
+            "github": "https://github.com/jpena925/twiddle-wakka",
+            "website": null,
+            "demo": null,
+            "languages": ["Ruby", "JavaScript"],
+            "technologies": ["React.js", "Ruby on Rails"]
+        },
+        {
+            "projectId": 3,
+            "name": "Math Test Gen",
+            "github": "https://github.com/rebekah-zhou/math-test-gen",
+            "website": "https://rebekah-zhou.github.io/math-test-gen/",
+            "demo": "https://www.loom.com/share/2bba5de81478407f9440503bffd8545a",
+            "languages": ["Ruby", "JavaScript"],
+            "technologies": ["React.js", "Ruby on Rails"]
+        }
+    ]
+}
